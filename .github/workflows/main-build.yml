@@ -7,7 +7,7 @@ concurrency: e2e-tests
 jobs:
   validate:
     name: Validate
-    runs-on: ubuntu-latest
+    runs-on: ARM64
     # build-tools is built from ../../tools/build-tools.Dockerfile
     container: ghcr.io/kedacore/build-tools:main
     steps:
